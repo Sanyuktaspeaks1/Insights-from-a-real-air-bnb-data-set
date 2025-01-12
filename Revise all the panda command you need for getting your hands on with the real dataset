@@ -1,1 +1,8 @@
-
+groupby(): Groups data by one or more columns.
+mean(): Calculates the average of a group.
+agg(): Aggregates using multiple functions.
+fillna(): Fills missing values.
+sort_values(): Sorts the DataFrame by one or more columns.
+dropna(): Removes rows with missing values.
+unique(): Returns unique values in a column.
+value_counts(): Returns the frequency count of unique values in a column
