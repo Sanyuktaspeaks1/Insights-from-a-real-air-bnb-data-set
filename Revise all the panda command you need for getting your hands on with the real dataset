@@ -6,3 +6,20 @@ sort_values(): Sorts the DataFrame by one or more columns.
 dropna(): Removes rows with missing values.
 unique(): Returns unique values in a column.
 value_counts(): Returns the frequency count of unique values in a column
+```diff
+import pandas as pd
+
+# Create a simple dummy DataFrame
+data = {
+    'product': ['A', 'A', 'B', 'B', 'A', 'B'],
+    'date': ['2024-01-01', '2024-01-02', '2024-01-01', '2024-01-02', '2024-01-03', '2024-01-03'],
+    'price': [10, 12, 20, 22, 10, 21],
+    'quantity': [2, 3, 1, 2, 4, 1]
+}
+
+df = pd.DataFrame(data)
+df['date'] = pd.to_datetime(df['date'])  # Convert 'date' column to datetime
+
+# Display the DataFrame
+print(df)
+```
