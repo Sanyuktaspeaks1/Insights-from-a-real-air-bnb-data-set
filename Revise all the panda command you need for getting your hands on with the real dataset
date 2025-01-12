@@ -23,3 +23,35 @@ df['date'] = pd.to_datetime(df['date'])  # Convert 'date' column to datetime
 # Display the DataFrame
 print(df)
 ```
+# Let's group the data by product and see the sum of quantity for each product.
+```diff
+# Group by 'product' and calculate the sum of 'quantity'
+grouped = df.groupby('product')['quantity'].sum()
+
+print(grouped)
+```
+# let's calculate the average price of each product across the different dates.
+```diff
+# Group by 'product' and calculate the mean price
+average_price = df.groupby('product')['price'].mean()
+
+print(average_price)
+```
+
+# agg(): Applying Multiple Aggregations
+We can use the agg() function to calculate multiple statistics at once. 
+Let’s calculate both the sum of quantity and the mean of price for each product.
+```diff
+# Group by 'product' and apply multiple aggregation functions
+aggregated = df.groupby('product').agg({'quantity': 'sum', 'price': 'mean'})
+
+print(aggregated)
+```
+
+#sort_values(): Sorting Data(descending)
+```diff
+# Sort the DataFrame by 'price' in descending order
+sorted_df = df.sort_values(by='price', ascending=False)
+
+print(sorted_df)
+```
