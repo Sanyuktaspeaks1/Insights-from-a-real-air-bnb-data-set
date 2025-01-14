@@ -10,15 +10,7 @@ If you are using Google Collab then .gz will give you no issues
 import pandas as pd
 calendar = pd.read_csv('calendar.csv.gz')
 ```
-# OR
-If you are using Anaconda- Upload the file into your working directory
-```diff
-import pandas as pd
 
-# Read the .gz file directly
-calendar = pd.read_csv('calendar.csv.gz', compression='gzip')
-print(calendar.head())
-```
 # Questions that you might want to address about the given data
 Let`s dive into exciting insights!
 # 1 Want to know the number of available and unavailable rooms
