@@ -158,7 +158,7 @@ m
 ![image](https://github.com/user-attachments/assets/1f60f2c1-32f7-4815-bed9-d0b4d4b7438f)
 
 
-##:rotating_light: How do I find location for my city?
+## :rotating_light: How do I find location for my city?
 - Type your city name on google maps
 - Click on What`s here
 ![image](https://github.com/user-attachments/assets/d3a64a51-52e1-438c-8999-d85a45220814)
