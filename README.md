@@ -65,7 +65,8 @@ listings = pd.read_csv('/content/listings (1).csv')
 ```diff
 listings.columns
 ```
-![image](https://github.com/user-attachments/assets/0bc1c5ea-0f5e-417c-bb85-2d0a20f34ea6)
+![image](https://github.com/user-attachments/assets/74ce7541-e3e0-473b-af3c-469f21838675)
+
 
 ## :white_check_mark: Room type and price is given seperately
 Let`s Combine and visualize them
