@@ -8,7 +8,7 @@ After landing on the website you can click on calendar.csv.gz and it will be dow
 If you are using Google Collab then .gz will give you no issues
 ```diff
 import pandas as pd
-calendar = pd.read_csv('calendar.csv.gz')
+calendar = pd.read_csv('calendar.csv')
 ```
 
 # :white_check_mark: Questions that you might want to address about the given data
