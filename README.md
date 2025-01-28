@@ -1,5 +1,5 @@
 # Insights-from-a-real-air-bnb-data-set
-# Select the data of your fav city from
+# :white_check_mark: Select the data of your fav city from
 [https://insideairbnb.com/get-the-data/](https://insideairbnb.com/get-the-data/)
 I have done all the calculations based on data from Hawaii
 ![image](https://github.com/user-attachments/assets/b188dbfe-e13b-4ed3-961f-0f3d872debb4)
