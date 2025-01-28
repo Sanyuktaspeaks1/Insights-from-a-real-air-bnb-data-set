@@ -11,7 +11,7 @@ import pandas as pd
 calendar = pd.read_csv('calendar.csv.gz')
 ```
 
-# Questions that you might want to address about the given data
+# :white_check_mark: Questions that you might want to address about the given data
 Let`s dive into exciting insights!
 # 1 Want to know the number of available and unavailable rooms
 ```diff
